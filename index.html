@@ -1,0 +1,208 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Architecture Company</title>
+  </head>
+  <style>
+
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap');
+
+  ::-webkit-scrollbar
+  {
+    display: none;
+  }
+
+  html
+  {
+    scroll-behavior: smooth;
+  }
+
+  body
+  {
+    margin: 0 0 0 0;
+    font-family: Open Sans;
+    background-image: url("res/bridge-sunrise.jpg");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    //background-position: 10% 40%;
+    color: lightgrey;
+  }
+
+  .top_container
+  {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.65);
+  }
+
+  .top_nav
+  {
+    text-align: center;
+    float: left;
+    margin-left: 8.6%;
+    margin-top: 2%;
+    width: 50%;
+    height: 30px;
+    transition: 0.25s;
+  }
+
+  .top_nav a
+  {
+    text-decoration: none;
+    color: silver;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-weight: bold;
+    transition: 0.25s;
+  }
+
+  .top_nav a:hover
+  {
+    color: #fffdfd;
+    text-shadow: 0px 10px 20px black;
+    border-bottom: 4px solid rgba(220, 220, 220, 0.8);
+  }
+
+  #logo
+  {
+    float: left;
+    padding-left: 2%;
+    padding-top: 0.5%;
+    font-family: Poppins;
+  }
+
+  #top_content
+  {
+    position: absolute;
+    margin-left: 18.85%;
+    margin-top: 15%;
+    width: 60%;
+    height: 50%;
+    //background-color: red;
+    text-align: center;
+    font-family: Poppins;
+  }
+
+  #top_content h1
+  {
+    margin-top: -3%;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  #top_content h4
+  {
+    margin-left: -1%;
+    font-size: 18px;
+  }
+
+  #top_content p
+  {
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 12px;
+  }
+
+  #top_content i
+  {
+    margin-top: 10%;
+    margin-left: -5%;
+    font-size: 30px;
+    transition: 0.25s;
+  }
+
+  #top_content a
+  {
+    text-decoration: none;
+    color: lightgrey;
+  }
+
+  #top_content i:hover
+  {
+    margin-top: 10.8%;
+    transition: 0.25s;
+  }
+
+  #bottom_container
+  {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 65%;
+    background-color: rgba(244,244,244);
+  }
+
+  .box
+  {
+    text-align: center;
+    border-radius: 20px;
+    float: left;
+    margin-left: 2%;
+    margin-right: 0%;
+    margin-top: 5%;
+    width: 30%;
+    height: 300px;
+    border: 1px solid lightgrey;
+    box-shadow: 10px 10px 5px lightgrey;
+    color: #282828;
+  }
+
+  .box p
+  {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .footer
+  {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #000000f5;
+    color: white;
+    text-align: center;
+  }
+
+  .footer h3
+  {
+    float: left;
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 2%;
+  }
+
+  </style>
+  <body>
+    <div class="top_container">
+      <h2 id="logo"><i class="fa fa-campground"></i> Architecture</h2>
+      <div class="top_nav">
+        <a href="#">Home</a>
+        <a href="#">Feature</a>
+        <a href="#">Product</a>
+        <a href="#">Service</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+      </div>
+      <div id="top_content">
+        <h4>DISCOVER THE WORLD</h4>
+        <h1>BUILD YOUR DREAM</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur euismod urna, eget consequat urna scelerisque elementum. Proin pellentesque, sapien sed faucibus accumsan, lorem arcu sagittis ex, sit amet suscipit ipsum augue at dui.</p>
+        <a href="#bottom_container"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div id="bottom_container">
+      <div class="box"><img src="res/less_cash.png" width="110" height="110"><h4>Less Cost</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus felis vitae arcu aliquet mollis. Donec malesuada auctor elit, sed mattis ligula egestas quis.</p></div>
+      <div class="box"><img src="res/cool_designs.png" width="110" height="110"><h4>Creative Designs</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus felis vitae arcu aliquet mollis. Donec malesuada auctor elit, sed mattis ligula egestas quis.</p></div>
+      <div class="box"><img src="res/customer_care.png" width="170" height="110"><h4>24x7 Customer Care</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus felis vitae arcu aliquet mollis. Donec malesuada auctor elit, sed mattis ligula egestas quis.</p></div>
+    </div>
+    <div class="footer">
+      <h3>© Abhinandan Deb</h3>
+    </div>
+  </body>
+</html>
